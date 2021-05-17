@@ -1,70 +1,72 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <img src="src/assets/images/logo-marvel.png" alt="Logo">
+</h1>
 
-## Available Scripts
+<h3 align="center">
+Web Masters jr front-end challenge
+</h3>
 
-In the project directory, you can run:
+# Índice
 
-### `yarn start`
+- [Stack](#tecnologias-utilizadas)
+- [Configurando o Ambiente de Desenvolvimento](#como-usar)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<a id="tecnologias-utilizadas"></a>
 
-### `yarn test`
+## :rocket: Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esta aplicação foi desenolvida com as seguintes tecnologias:
 
-### `yarn build`
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<a id="como-usar"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :fire:  Configurando o Ambiente de Desenvolvimento
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ### **Pré-requisitos**
 
-### `yarn eject`
+  - É **necessário** possuir o **[Node.js](https://TheOnlyRealDevLanguage.org/en/)** instalado na máquina
+  - Também, é **preciso** ter um gerenciador de pacotes, se você já tem o Node.js, então o **[NPM](https://www.npmjs.com/)** já vai estar disponível.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Faça um clone :
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+  $ git clone https://github.com/beatrizalvesfel/marvel-jr.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Executando a Aplicação:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```sh
+  # Execute o comando abaixo para instalar as dependencias do projeto
+  $ yarn
 
-## Learn More
+  # Inciciar o servidor de desenvolvimento
+  $ yarn start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  # Construir uma build para produção
+  $ yarn build
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a id="como-contribuir"></a>
 
-### Code Splitting
+## :heavy_check_mark: Como Contribuir
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Faça um Fork desse repositório
 
-### Analyzing the Bundle Size
+- Clone o repositório
+```sh
+  $ git clone https://github.com/<SEU_USUARIO_GIT>/little-friend.git
+```
+- Crie um branch com sua feature: `git checkout -b nome-da-feature`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Comite suas mudanças: `git commit -m 'feat: Breve descrição da feature'`
 
-### Making a Progressive Web App
+- Envie a feature: `git push origin nome-da-feature`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
